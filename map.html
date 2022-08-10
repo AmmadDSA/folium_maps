@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7e97aa65746334c259666c21f8d458d9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7e97aa65746334c259666c21f8d458d9" ></div>
+        
+</body>
+<script>    
+    
+            var map_7e97aa65746334c259666c21f8d458d9 = L.map(
+                "map_7e97aa65746334c259666c21f8d458d9",
+                {
+                    center: [43.653425095385685, -79.3845425442276],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_495e14c4f938bff23ff22a1e95268e23 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var marker_e7ecbe801df7c60b878f9b02f8fb3681 = L.marker(
+                [43.65272618249476, -79.38336510390961],
+                {"tootip": "The Square"}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var icon_4113d0ec9a80dc6dd0dcb4a61f489750 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "green", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e7ecbe801df7c60b878f9b02f8fb3681.setIcon(icon_4113d0ec9a80dc6dd0dcb4a61f489750);
+        
+    
+        var popup_c3087ced0d7ba7717e6e53b68ddcd243 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68f7832e6ac131aa3e1137638a4e7f10 = $(`<div id="html_68f7832e6ac131aa3e1137638a4e7f10" style="width: 100.0%; height: 100.0%;"><h1>Nathan-Phillip Square</h1><img src='conor-samuel.jpg' width=400px>image</image><p>Hangout place</p></div>`)[0];
+            popup_c3087ced0d7ba7717e6e53b68ddcd243.setContent(html_68f7832e6ac131aa3e1137638a4e7f10);
+        
+
+        marker_e7ecbe801df7c60b878f9b02f8fb3681.bindPopup(popup_c3087ced0d7ba7717e6e53b68ddcd243)
+        ;
+
+        
+    
+    
+            var marker_d98706ffafb4628b024174f0b832fbce = L.marker(
+                [43.65272618249476, -79.38336510390961],
+                {"tootip": "The Square"}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var icon_6bf88200e409f0b5be717c26d3197f29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "green", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d98706ffafb4628b024174f0b832fbce.setIcon(icon_6bf88200e409f0b5be717c26d3197f29);
+        
+    
+        var popup_a909982236610da54c7cce7ef5b965dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea0a122af70c0e24ad0434fef7d59102 = $(`<div id="html_ea0a122af70c0e24ad0434fef7d59102" style="width: 100.0%; height: 100.0%;"><h1>Nathan-Phillip Square</h1><img src='conor-samuel.jpg' width=400px><p>Hangout place</p></div>`)[0];
+            popup_a909982236610da54c7cce7ef5b965dd.setContent(html_ea0a122af70c0e24ad0434fef7d59102);
+        
+
+        marker_d98706ffafb4628b024174f0b832fbce.bindPopup(popup_a909982236610da54c7cce7ef5b965dd)
+        ;
+
+        
+    
+    
+            var marker_c9d4cfe3e29d0022c1370416c71ed822 = L.marker(
+                [43.65272618249476, -79.38336510390961],
+                {"tootip": "The Square"}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var icon_8a58f1bcf3c87d40a90391678114fde0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "green", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9d4cfe3e29d0022c1370416c71ed822.setIcon(icon_8a58f1bcf3c87d40a90391678114fde0);
+        
+    
+        var popup_372a041518569214ebdf726206d168e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b61f7d51017384cecc0d6349558cd8f5 = $(`<div id="html_b61f7d51017384cecc0d6349558cd8f5" style="width: 100.0%; height: 100.0%;"><h1>Nathan-Phillip Square</h1><img src='conor-samuel.jpg' width=400px><p>Hangout place</p></div>`)[0];
+            popup_372a041518569214ebdf726206d168e9.setContent(html_b61f7d51017384cecc0d6349558cd8f5);
+        
+
+        marker_c9d4cfe3e29d0022c1370416c71ed822.bindPopup(popup_372a041518569214ebdf726206d168e9)
+        ;
+
+        
+    
+    
+            var marker_dc0426834a6e8d0d86f489a365ec4a50 = L.marker(
+                [43.65272618249476, -79.38336510390961],
+                {"tootip": "The Square"}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var icon_c8e7e0bc5f2b55c92faa7597ba4d6453 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "green", "markerColor": "grey", "prefix": "glyphicon"}
+            );
+            marker_dc0426834a6e8d0d86f489a365ec4a50.setIcon(icon_c8e7e0bc5f2b55c92faa7597ba4d6453);
+        
+    
+        var popup_7819d969657bcecf32b64625e53ca79c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5afeb61c5838ecc167f4ab8bc63567f8 = $(`<div id="html_5afeb61c5838ecc167f4ab8bc63567f8" style="width: 100.0%; height: 100.0%;"><h1>Nathan-Phillip Square</h1><img src='conor-samuel.jpg' width=400px><p>Hangout place</p></div>`)[0];
+            popup_7819d969657bcecf32b64625e53ca79c.setContent(html_5afeb61c5838ecc167f4ab8bc63567f8);
+        
+
+        marker_dc0426834a6e8d0d86f489a365ec4a50.bindPopup(popup_7819d969657bcecf32b64625e53ca79c)
+        ;
+
+        
+    
+    
+            var marker_b6f761b5185bcb4765b7b11ad0c7a70e = L.marker(
+                [43.65272618249476, -79.38336510390961],
+                {"tootip": "The Square"}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var icon_84239c694775f7de29a4fb11a7789fcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "green", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b6f761b5185bcb4765b7b11ad0c7a70e.setIcon(icon_84239c694775f7de29a4fb11a7789fcf);
+        
+    
+        var popup_b9792b01eb2599c4cd0bdfc14000e21d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59702ac963cd051ffb29d0aa879afb18 = $(`<div id="html_59702ac963cd051ffb29d0aa879afb18" style="width: 100.0%; height: 100.0%;"><h1>Nathan-Phillip Square</h1><img src='conor-samuel.jpg' width=400px><p>Hangout place</p></div>`)[0];
+            popup_b9792b01eb2599c4cd0bdfc14000e21d.setContent(html_59702ac963cd051ffb29d0aa879afb18);
+        
+
+        marker_b6f761b5185bcb4765b7b11ad0c7a70e.bindPopup(popup_b9792b01eb2599c4cd0bdfc14000e21d)
+        ;
+
+        
+    
+    
+            var marker_2bab804627015e5a33e3f6b075e7ad11 = L.marker(
+                [43.65272618249476, -79.38336510390961],
+                {"tootip": "The Square"}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var icon_cb7899d165740afdf367afac514afcac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "red", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2bab804627015e5a33e3f6b075e7ad11.setIcon(icon_cb7899d165740afdf367afac514afcac);
+        
+    
+        var popup_ee9b1c941435e883203f097a0b5a5c69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5189099b81b38701f2210fc49cecb70b = $(`<div id="html_5189099b81b38701f2210fc49cecb70b" style="width: 100.0%; height: 100.0%;"><h1>Nathan-Phillip Square</h1><img src='conor-samuel.jpg' width=400px><p>Hangout place</p></div>`)[0];
+            popup_ee9b1c941435e883203f097a0b5a5c69.setContent(html_5189099b81b38701f2210fc49cecb70b);
+        
+
+        marker_2bab804627015e5a33e3f6b075e7ad11.bindPopup(popup_ee9b1c941435e883203f097a0b5a5c69)
+        ;
+
+        
+    
+    
+            var marker_927cd13c4eb761c6f159d44f87bbfe92 = L.marker(
+                [43.65272618249476, -79.38336510390961],
+                {"tootip": "The Square"}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var icon_c754a93a23c1da36174f44aeacac7aa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "red", "markerColor": 808080, "prefix": "glyphicon"}
+            );
+            marker_927cd13c4eb761c6f159d44f87bbfe92.setIcon(icon_c754a93a23c1da36174f44aeacac7aa8);
+        
+    
+        var popup_c0c3cacc083c5daea80886e50878c2d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdc319f4b1a283d716f628b8d2db6aeb = $(`<div id="html_fdc319f4b1a283d716f628b8d2db6aeb" style="width: 100.0%; height: 100.0%;"><h1>Nathan-Phillip Square</h1><img src='conor-samuel.jpg' width=400px><p>Hangout place</p></div>`)[0];
+            popup_c0c3cacc083c5daea80886e50878c2d4.setContent(html_fdc319f4b1a283d716f628b8d2db6aeb);
+        
+
+        marker_927cd13c4eb761c6f159d44f87bbfe92.bindPopup(popup_c0c3cacc083c5daea80886e50878c2d4)
+        ;
+
+        
+    
+    
+            var marker_6ab05a7e7af75cda88ab4170692d5a16 = L.marker(
+                [43.65272618249476, -79.38336510390961],
+                {"tootip": "The Square"}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var icon_aa4e27124d937d3ac6438c29546fb85b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "red", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ab05a7e7af75cda88ab4170692d5a16.setIcon(icon_aa4e27124d937d3ac6438c29546fb85b);
+        
+    
+        var popup_ade5b1e1d5f77944cc19a81e8ab765fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d0a9140c833a8e006ccaa6d1575d621 = $(`<div id="html_0d0a9140c833a8e006ccaa6d1575d621" style="width: 100.0%; height: 100.0%;"><h1>Nathan-Phillip Square</h1><img src='conor-samuel.jpg' width=400px><p>Hangout place</p></div>`)[0];
+            popup_ade5b1e1d5f77944cc19a81e8ab765fa.setContent(html_0d0a9140c833a8e006ccaa6d1575d621);
+        
+
+        marker_6ab05a7e7af75cda88ab4170692d5a16.bindPopup(popup_ade5b1e1d5f77944cc19a81e8ab765fa)
+        ;
+
+        
+    
+    
+            var marker_33b970d7c365cd176a17b1df13a66490 = L.marker(
+                [43.65272618249476, -79.38336510390961],
+                {"tootip": "The Square"}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var icon_eb85d46007baa9cd345e5922a5cd17b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "red", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_33b970d7c365cd176a17b1df13a66490.setIcon(icon_eb85d46007baa9cd345e5922a5cd17b7);
+        
+    
+        var popup_8d7cef5b00d7f692cf0e31ecd2afc26d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18cdd90ac500084e5817b759984d5091 = $(`<div id="html_18cdd90ac500084e5817b759984d5091" style="width: 100.0%; height: 100.0%;"><h1>Nathan-Phillip Square</h1><img src='conor-samuel.jpg' width=400px><p>Hangout place</p></div>`)[0];
+            popup_8d7cef5b00d7f692cf0e31ecd2afc26d.setContent(html_18cdd90ac500084e5817b759984d5091);
+        
+
+        marker_33b970d7c365cd176a17b1df13a66490.bindPopup(popup_8d7cef5b00d7f692cf0e31ecd2afc26d)
+        ;
+
+        
+    
+    
+            var marker_56db45f9d9c778f1d7113f9c0ec2cd6c = L.marker(
+                [43.65599791966314, -79.38057673775313],
+                {"tootip": "The Other Square"}
+            ).addTo(map_7e97aa65746334c259666c21f8d458d9);
+        
+    
+            var icon_751ab28521bc32b2e297f6827a778810 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "red", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_56db45f9d9c778f1d7113f9c0ec2cd6c.setIcon(icon_751ab28521bc32b2e297f6827a778810);
+        
+    
+        var popup_3be37e7008b18f69d1b42bd4c474081f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08bea603ae1b1a7417d0411371aa08d9 = $(`<div id="html_08bea603ae1b1a7417d0411371aa08d9" style="width: 100.0%; height: 100.0%;"><h1>Dundas Square</h1><img src='data/marcin-skalij.jpg' width=400px><p>Hangout 2</p></div>`)[0];
+            popup_3be37e7008b18f69d1b42bd4c474081f.setContent(html_08bea603ae1b1a7417d0411371aa08d9);
+        
+
+        marker_56db45f9d9c778f1d7113f9c0ec2cd6c.bindPopup(popup_3be37e7008b18f69d1b42bd4c474081f)
+        ;
+
+        
+    
+</script>
